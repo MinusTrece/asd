@@ -1,5 +1,11 @@
 function showMessage(){
-    console.log("Hi");
+    let output=prompt("ingrese una palara");
+    return output;
 }
 
-showMessage();
+let exit;
+exit=showMessage();
+console.log(exit)
+//return Devuelve valor
+
+
